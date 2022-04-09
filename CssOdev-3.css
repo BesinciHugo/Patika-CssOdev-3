@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    color: #969696;
+}
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Üst-Kısım {
+    display: flex;
+    align-content: center;
+    height: 48px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Üstkısım-Soldakiler {
+    display: flex;
+    width: 120px;
+    height: 48px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Üstkısım-Sagdakiler {
+    width: 250px;
+    height: 48px;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.Noktalar {
+    width: 32px;
+    height: 32px;
+}
+
+.Sagust-Foto {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.Orta-kısım {
+    margin-bottom: 200px;
+}
+
+
+.Google-Gorseli {
+    
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 20px;
+}
+
+.Arama-Cubugu {
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    
+}
+
+input {
+    color: black;
+    width: 450px;
+    height: 50px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1); 
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    border: 0;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.Aramam {
+    width: 580px;
+    position: relative;
+}
+
+.Buyutec {
+    position: absolute;
+    left: 15px;  
+    top: 5px;  
+}
+
+.Mic {
+    top: 10px;
+    position: absolute;
+    right: 25px;
+    
+}
+
+.Arama-Butonları {
+    
+    display: grid;
+    justify-content: center;
+    margin-top: 6px;
+    width: 100%;
+    height: 30px;
+    grid-template-columns: auto auto;
+    column-gap: 5px;
+}
+
+button {
+    width: 200px;
+}
+
+.Alt-Kısım {
+    background-color:#f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    -webkit-box-shadow: 0px -1px 5px 0px #E1E1E1; 
+    box-shadow: 0px -1px 5px 0px #E1E1E1;
+    padding: 10px ;
+}
+
+.Altkısım-Soldakiler {
+    
+    display: flex;
+    width: 350px;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.Altkısım-Sagdakiler {
+    
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
